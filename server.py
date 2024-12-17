@@ -16,6 +16,7 @@ def handler_conn(conn):
     # 接收客户端的数据
     request = []
     print(conn)
+    print(1)
     data = conn.recv(1024)
 
     data = data.decode(encoding='utf-8')
